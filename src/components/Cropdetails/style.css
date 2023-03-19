@@ -1,0 +1,68 @@
+.background {
+    width: 100%;
+    height: 100%;
+    background: url('./../../../media/mainpic.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.olddet {
+    width: 90%;
+    background-color: rgba(172, 255, 47, 0.384);
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.care {
+    width: 90%;
+    background-color: rgba(172, 255, 47, 0.384);
+    margin-top: 15vh;
+    padding: 10px;
+}
+
+.date {
+    width: 90%;
+    background-color: rgba(172, 255, 47, 0.384);
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 0;
+    margin-bottom: 5vh;
+}
+
+#bckdb {
+    width: 90%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+#dateform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ln {
+    font-size: 1rem;
+}
+
+.soil_report {
+    width: 90%;
+    background-color: rgba(172, 255, 47, 0.384);
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 0;
+    margin-bottom: 5vh;
+}
