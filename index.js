@@ -1,5 +1,5 @@
 const path = require('path');
-const express = reqire('express');
+const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const connectDB = require('./config/db');
@@ -20,3 +20,13 @@ app.use(express.json());
 
 // Enable cors
 app.use(cors());
+
+// routes
+app.use('/LSpage', require('./Routes/LoginSignupPage'));
+
+const PORT = process.env.PORT;
+
+app.listen(PORT, () => {
+    console.log(`Server is running in ${process.env.NODE_ENV} mode on port  ${PORT} `);
+})
+
