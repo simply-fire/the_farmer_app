@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cors());
 
 // routes
-app.use('/LSpage', require('./Routes/LoginSignupPage'));
+app.use('/LSpage', require('./Routes/routes'));
 
 const PORT = process.env.PORT;
 
